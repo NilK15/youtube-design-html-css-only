@@ -4,7 +4,9 @@
 }
 
 .leftSection{
-  background-color: lightblue;
+  display:flex;
+  justify-content: space-evenly;
+  /* background-color: lightblue; */
   width: 200px;
   margin-right: 20px;
 }
