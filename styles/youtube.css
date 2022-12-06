@@ -1,20 +1,73 @@
-.youtube-header-container{
+.youtube-header-container {
   display:flex;
   justify-content: space-between;
+  margin-top: 10px;
 }
 
-.leftSection{
+.leftSection {
   display:flex;
   justify-content: space-evenly;
   /* background-color: lightblue; */
   width: 200px;
   margin-right: 20px;
+
 }
-.middleSection{
-  background-color: lightpink;
+
+.hamburger-icon,
+.youtube-premium-icon {
+  cursor:pointer;
+}
+
+.middleSection {
   flex: 1;
+  display: flex;
+  max-width: 700px;
 }
-.rightSection{
+
+.searchInput {
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgray;
+  border-radius: 20px 0 0 20px;
+  height: 38px;
+  margin:0;
+  padding-left: 10px;
+  flex:1;
+  font-size: 18px;
+}
+
+.searchInput::placeholder {
+  font-size: 18px;
+}
+
+.searchButton {
+  margin:0 0 0 -1px;
+  width:60px;
+  border-radius: 0 20px 20px 0;
+  border-style: solid;
+  border-width: 1px;
+  background-color: rgb(232, 232, 232) ;
+
+}
+
+.search-button-icon {
+  width: 22px;
+}
+
+.microphoneButton {
+  margin:0;
+  margin-left: 5px;
+  border-radius: 20px;
+  border-style: none;
+  width:40px;
+  background-color: rgb(239, 239, 239);
+}
+
+.microphone-button-icon {
+  width: 22px;
+}
+
+.rightSection {
   background-color: lightblue;
   width: 200px;
   margin-left: 20px;
