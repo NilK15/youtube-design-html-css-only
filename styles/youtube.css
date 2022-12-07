@@ -1,20 +1,25 @@
 .youtube-header-container {
   display:flex;
   justify-content: space-between;
-  margin-top: 10px;
+  margin: 10px 10px 0 10px;
 }
 
 .leftSection {
   display:flex;
   justify-content: space-evenly;
   /* background-color: lightblue; */
-  width: 200px;
+  min-width: 200px;
   margin-right: 20px;
 
 }
 
 .hamburger-icon,
-.youtube-premium-icon {
+.youtube-premium-icon,
+.create-button-icon,
+.notification-button-icon,
+.account-button-icon,
+.search-button-icon,
+.microphone-button-icon {
   cursor:pointer;
 }
 
@@ -30,6 +35,8 @@
   border-color: lightgray;
   border-radius: 20px 0 0 20px;
   height: 38px;
+  /* have to set width to 0 as default is 100px (size = 20) */
+  width: 0px;
   margin:0;
   padding-left: 10px;
   flex:1;
@@ -68,7 +75,21 @@
 }
 
 .rightSection {
-  background-color: lightblue;
-  width: 200px;
+  display:flex;
+  justify-content: space-evenly;
+  min-width: 200px;
   margin-left: 20px;
+}
+
+.createButton, 
+.notificationButton,
+.accountButton {
+  width: 35px;
+  background-color: white;
+  border-style: none;
+}
+
+.account-button-icon {
+  width: 30px;
+  border-radius: 15px;
 }
