@@ -1,9 +1,59 @@
 .gridVideo {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  height: 2000px;
+  height: 200px;
 }
 
 .videoCard {
-  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
 }
+
+.videoCard img{
+  width: 100%;
+  border-radius: 16px;
+}
+
+.videoCardDetails {
+  margin-top: 10px;
+  display: flex;
+}
+
+.channelIcon img {
+  width: 28px;
+}
+
+.videoDetails {
+  margin: 0;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.videoTitle {
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: bold;
+  line-height: 15px;
+}
+
+.authorContainer {
+  display: flex;
+  height: 20px;
+  align-items: center;
+  color: gray;
+}
+
+.videoAuthor {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.verifiedIcon {
+  opacity: .4;
+}
+.videoStats  {
+  margin: 0;
+  color: gray;
+}
+
+
