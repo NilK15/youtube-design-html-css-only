@@ -1,5 +1,7 @@
 .gridVideo {
   display: grid;
+  column-gap: 10px;
+  row-gap: 10px;
   grid-template-columns: 1fr 1fr 1fr;
   height: 200px;
 }
@@ -7,6 +9,7 @@
 .videoCard {
   display: flex;
   flex-direction: column;
+  cursor: pointer;
 }
 
 .videoCard img{
@@ -33,6 +36,8 @@
   margin: 0;
   margin-bottom: 10px;
   font-weight: bold;
+  max-height: 30px;
+  overflow: hidden;
   line-height: 15px;
 }
 
@@ -50,6 +55,7 @@
 
 .verifiedIcon {
   opacity: .4;
+  margin: -18px;
 }
 .videoStats  {
   margin: 0;
