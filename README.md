@@ -1,6 +1,6 @@
 # Youtube Front-End Responsive Site - Only Design Implementation! 
 
-### My attempt at replicating the YouTube website design (non-functional) usingly purely HTML and CSS only (and Google Fonts).
+### My attempt at replicating the YouTube website design (non-functional) usingly purely HTML and CSS (and Google Fonts).
 
 ### Steps: 
 1. Screenshot taken of personal YouTube account's homepage. 
