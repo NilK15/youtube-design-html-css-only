@@ -1,0 +1,9 @@
+.gridVideo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 2000px;
+}
+
+.videoCard {
+  background-color: blueviolet;
+}

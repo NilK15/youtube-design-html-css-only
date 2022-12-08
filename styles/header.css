@@ -1,8 +1,12 @@
 .youtube-header-container {
   display:flex;
   justify-content: space-between;
-  margin: 10px 10px 0 10px;
   height: 44px;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  background-color: white;
 }
 
 .leftSection {

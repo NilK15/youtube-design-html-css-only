@@ -10,11 +10,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 90px;
+  width: 66px;
   font-size: 10px;
   /* Add this margine-left:6px to the grid section so that this bottom border under Youtube Music
    looks evenly spaced */
-  margin-left: 6px;
+   background-color: white;
+  position:fixed;
+  left:6px;
+  top:44px;
 
 }
 
@@ -23,6 +26,9 @@
   border-bottom: solid;
   border-width: 1px;
   border-color: lightgray;
+}
+.sidebarBottom {
+  visibility: hidden;
 }
 
 .sidebarHome,
