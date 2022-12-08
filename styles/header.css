@@ -18,13 +18,7 @@
 
 }
 
-.hamburger-icon,
-.youtube-premium-icon,
-.create-button-icon,
-.notification-button-icon,
-.account-button-icon,
-.search-button-icon,
-.microphone-button-icon {
+.navIcon {
   cursor:pointer;
 }
 
