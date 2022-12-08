@@ -44,12 +44,23 @@
   margin-bottom: 5px;
 }
 
-/* @media (min-width: 1400px) {
-  .sidebarTop,
-  .sidebarBottom {
+@media (min-width: 1250px) {
+  .sidebarElement {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 66*2px;
+    font-size: 14px;
   }
-} */
+
+  .sidebarElement div {
+    margin-left: 20px;
+  }
+
+  .sidebarBottom,
+  .sidebarTop {
+    width: 140px;
+    align-items: flex-start;
+    /* justify-content: start; */
+  }
+}
+

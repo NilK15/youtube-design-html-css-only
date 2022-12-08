@@ -6,3 +6,10 @@
   margin-left: 82px;
   margin-top: 112px;
 }
+
+
+@media (min-width: 1250px) {
+  .grid {
+    margin-left: 160px;
+  }
+}

@@ -3,7 +3,7 @@
   background-color: white;
   top:44px;
   right:34px;
-  left:78px;
+  left:82px;
   padding-top: 20px;
   padding-bottom: 20px;
   white-space: nowrap;
@@ -38,4 +38,10 @@ IE, Edge and Firefox */
 .genreButtons:focus {
   background-color: black;
   color: white;
+}
+
+@media (min-width: 1250px) {
+  .gridGenre {
+    left: 160px;
+  }
 }
