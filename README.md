@@ -1,15 +1,17 @@
 # Youtube Front-End Responsive Clone - No Functionality Only Design!
 
-### My attempt at copying the YouTube website design (non-functional). 
+### My attempt at replicating the YouTube website design (non-functional) usingly purely HTML and CSS only (and Google Fonts).
 
 ### Steps: 
-* Screenshot taken of personal YouTube account's homepage. 
+1. Screenshot taken of personal YouTube account's homepage. 
 
-* Modified the image into nested layouts, color coded based on nested level. This aided in helping structuring the design.
+2. Modified the image into nested layouts, color coded based on nested level. This aided in helping structuring the design.
 
-* The SVGs were copied by inspecting the document of the real YouTube site, then pasting the <svg> element code  into newly created, local .svg files.
-
-  `NOTE: Needed to add xmlns="http://www.w3.org/2000/svg" in the <svg> tag of the newly created local .svg files.`
+3. The SVGs were copied by inspecting the document of the real YouTube site, then pasting the <svg> element code  into newly created, local .svg files.
   
-Thumbnail, channel, and account pictures were all retrieved in the same fashion, except these were saved as .jpg files instead of .svg.
+4. Thumbnail, channel, and account pictures were all retrieved in the same fashion, except these were saved as .jpg files instead of .svg.
+
+
+  `NOTE: Have to add xmlns="http://www.w3.org/2000/svg" in the <svg> tag of the copied <svg> element when pasting into local .svg files, otherwise will not recognize SVG.`
+  
 
