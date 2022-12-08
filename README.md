@@ -1,4 +1,4 @@
-# Youtube Front-End Responsive Clone - No Functionality Only Design!
+# Youtube Front-End Responsive Site - Only Design Implementation! 
 
 ### My attempt at replicating the YouTube website design (non-functional) usingly purely HTML and CSS only (and Google Fonts).
 
