@@ -62,4 +62,26 @@
   color: gray;
 }
 
+@media (min-width: 0) {
+  .gridVideo {
+    grid-template-columns: 1fr;
+  }
+}
 
+@media (min-width: 650px) {
+  .gridVideo {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 900px) {
+  .gridVideo {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1400px) {
+  .gridVideo {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
