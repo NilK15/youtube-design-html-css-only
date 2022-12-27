@@ -82,7 +82,7 @@
   }
 }
 
-@media (min-width: 650px) {
+@media (min-width: 900px) {
   .gridVideo {
     grid-template-columns: 1fr 1fr;
   }
@@ -91,13 +91,13 @@
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1500px) {
   .gridVideo {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
-@media (min-width: 1250px) {
+@media (min-width: 1800px) {
   .gridVideo {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
