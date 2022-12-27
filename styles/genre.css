@@ -40,7 +40,7 @@ IE, Edge and Firefox */
   color: white;
 }
 
-@media (min-width: 1250px) {
+@media (min-width: 1150px) {
   .gridGenre {
     left: 180px;
   }
