@@ -5,6 +5,7 @@
   position:fixed;
   left:6px;
   top:44px;
+  z-index: 1;
 }
 .sidebarTop,
 .sidebarBottom {

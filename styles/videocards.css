@@ -3,7 +3,9 @@
   column-gap: 10px;
   row-gap: 10px;
   grid-template-columns: 1fr 1fr 1fr;
-  height: 200px;
+  height: 200%;
+  z-index: 0;
+  height: 100vh;
 }
 
 .videoCard {
@@ -76,6 +78,7 @@
 @media (min-width: 0) {
   .gridVideo {
     grid-template-columns: 1fr;
+    height: 100vh;
   }
   .videoLength {
     bottom: 84px;
