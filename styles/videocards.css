@@ -3,17 +3,16 @@
   column-gap: 10px;
   row-gap: 10px;
   grid-template-columns: 1fr 1fr 1fr;
-  height: 200px;
+  height: 100vh;
 }
 
-.videoCard {
-}
 .thumbDiv{
   display: flex;
   flex-direction: column;
   cursor: pointer;
   position: relative;
 }
+
 
 .videoCard img{
   width: 100%;
@@ -85,6 +84,7 @@
 @media (min-width: 1100px) {
   .gridVideo {
     grid-template-columns: 1fr 1fr;
+    height: 700px;
   }
 }
 
