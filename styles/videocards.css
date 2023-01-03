@@ -39,18 +39,14 @@
 }
 
 .videoDetails {
-  margin: 0;
   margin-left: 10px;
-  font-size: 12px;
+  font-size: 20px;
 }
 
 .videoTitle {
   margin: 0;
   margin-bottom: 10px;
   font-weight: bold;
-  max-height: 30px;
-  overflow: hidden;
-  line-height: 15px;
 }
 
 .authorContainer {
@@ -79,12 +75,19 @@
     grid-template-columns: 1fr;
     height: 100vh;
   }
+  .videoDetails {
+    font-size: 5vw;
+  }
 }
 
 @media (min-width: 1100px) {
   .gridVideo {
     grid-template-columns: 1fr 1fr;
     height: 700px;
+  }
+
+  .videoDetails {
+    font-size: 30px;
   }
 }
 

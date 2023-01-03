@@ -1,11 +1,6 @@
 .sidebarContainer {
 
-  display: flex;
-  flex-direction: column;
-  position:fixed;
-  left:6px;
-  top:44px;
-  z-index: 1;
+  display: none;
 }
 .sidebarTop,
 .sidebarBottom {
@@ -14,7 +9,6 @@
   align-items: center;
   justify-content: center;
   width: 66px;
-  font-size: 10px;
   /* Add this margine-left:6px to the grid section so that this bottom border under Youtube Music
    looks evenly spaced */
   background-color: white;
@@ -22,6 +16,7 @@
 }
 
 .sidebarTop {
+  visibility: hidden;
   padding-bottom: 15px;
   border-bottom: solid;
   border-width: 1px;
@@ -54,7 +49,7 @@
 }
 
 .sidebarIcon {
-  width: 25px;
+  width: 35px;
   margin-bottom: 5px;
 }
 
@@ -63,15 +58,16 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    font-size: 12px;
   }
 
   .sidebarElement div {
-    margin-left: 20px;
+    margin-left: 5px;
+    font-size: 20px;
   }
 
   .sidebarBottom,
   .sidebarTop {
+    visibility: visible;
     width: 140px;
     align-items: flex-start;
     justify-content: start;
@@ -83,7 +79,12 @@
     margin-bottom: 0;
   }
   .sidebarContainer {
-    left: 26px;
+  display: flex;
+  flex-direction: column;
+  position:fixed;
+  top:80px;
+  z-index: 1;
+  left: 4px
   }
 }
 

@@ -1,7 +1,7 @@
 .youtube-header-container {
   display:flex;
   justify-content: space-between;
-  height: 44px;
+  height: 80px;
   position: fixed;
   top:0;
   left:0;
@@ -12,7 +12,6 @@
 
 .leftSection {
   display:flex;
-  justify-content: space-evenly;
   /* background-color: lightblue; */
   min-width: 200px;
   margin-right: 20px;
@@ -21,10 +20,11 @@
 
 .navIcon {
   cursor:pointer;
-  width: 25px;
+  width: 50px;
 }
 .youtubeIcon {
-  width: 97px;
+  width: 150px;
+  margin-left: 10px;
 }
 
 .middleSection {
@@ -43,7 +43,7 @@
   margin:0;
   padding-left: 10px;
   flex:1;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 .searchInput::placeholder {
@@ -64,7 +64,7 @@
 }
 
 .search-button-icon {
-  width: 25px;
+  width: 50px;
 }
 
 .microphoneButton {
@@ -73,19 +73,19 @@
   align-items:center;
   margin:0;
   margin-left: 10px;
-  width: 44px;
-  border-radius: 25px;
+  width: 80px;
+  border-radius: 40px;
   border-style: none;
   background-color: rgb(249, 249, 249);
 }
 
 .microphone-button-icon {
-  width: 25px;
+  width: 50px;
 }
 
 .rightSection {
   display:flex;
-  justify-content: center;
+  justify-content: space-around;  
   min-width: 200px;
   margin-left: 20px;
   align-items: center;
@@ -94,7 +94,7 @@
 .createButton, 
 .notificationButton,
 .accountButton {
-  width: 35px;
+  width: 50px;
   background-color: white;
   border-style: none;
 }
@@ -118,6 +118,6 @@
 }
 
 .account-button-icon {
-  width: 30px;
+  width: 50px;
   border-radius: 19px;
 }
