@@ -37,21 +37,20 @@
 
 .channelIcon img {
   cursor: pointer;
-  width: 100px;
-  border-radius: 50px;
+  width: 50px;
+  border-radius: 25px;
 }
 
 .videoDetails {
   display: flex;
   flex-direction: column;
-  row-gap: 10px;
+  row-gap: 5px;
   margin-left: 10px;
   font-size: 20px;
 }
 
 .videoTitle {
   margin: 0;
-  margin-bottom: 10px;
   font-weight: bold;
 }
 
