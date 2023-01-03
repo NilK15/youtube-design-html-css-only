@@ -3,9 +3,8 @@
   justify-content: space-between;
   height: 80px;
   position: fixed;
+  width: 100%;
   top:0;
-  left:0;
-  right:0;
   background-color: white;
   z-index: 1;
 }
@@ -13,24 +12,26 @@
 .leftSection {
   display:flex;
   /* background-color: lightblue; */
-  min-width: 200px;
   margin-right: 20px;
 
 }
 
-.navIcon {
+#hamburger {
+  min-width: 50px;
+  width: 13vw;
   cursor:pointer;
+}
+
+.navIcon {
   width: 50px;
 }
 .youtubeIcon {
-  width: 150px;
-  margin-left: 10px;
+  width: 40vw;
+  min-width: 120px;
 }
 
 .middleSection {
-  flex: 1;
-  display: flex;
-  max-width: 700px;
+  display: none;
 }
 
 .searchInput {
@@ -86,9 +87,8 @@
 .rightSection {
   display:flex;
   justify-content: space-around;  
-  min-width: 200px;
-  margin-left: 20px;
   align-items: center;
+  margin-right: 5px;
 }
 
 .createButton, 
@@ -119,5 +119,56 @@
 
 .account-button-icon {
   width: 50px;
-  border-radius: 19px;
+  border-radius: 25px;
+}
+
+
+@media (min-width: 0px) {
+
+  .youtube-header-container {
+    display: flex;
+    height:11vw ;
+    justify-content: space-between;
+  }
+  #hamburger {
+  width: 100px;
+  }
+
+.youtubeIcon {
+  width: 300px;
+}
+.rightSection {
+  margin-right: 10px;
+}
+}
+
+.navIcon{
+  width: 10vw;
+  border-radius: 5vw;
+}
+
+@media (min-width: 1100px) {
+  #hamburger {
+    display: none;
+  }
+.navIcon{
+  width: 40px;
+  border-radius: 20px;
+}
+
+.youtube-header-container {
+  height: 80px;
+}
+
+.middleSection {
+  flex: 1;
+  display: flex;
+  max-width: 700px;
+}
+  .youtubeIcon {
+    margin-left: 10px;
+  }
+  .rightSection {
+    margin-right: 10px;
+  }
 }
