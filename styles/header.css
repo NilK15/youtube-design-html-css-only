@@ -24,9 +24,11 @@
 }
 
 .navIcon {
+  cursor: pointer;
   width: 50px;
 }
 .youtubeIcon {
+  cursor: pointer;
   width: 40vw;
   min-width: 120px;
 }
@@ -150,6 +152,7 @@
   }
 
   .navIcon{
+    cursor: pointer;
     width: 54px;
     border-radius: 27px;
     margin-right: 10px;
@@ -166,6 +169,7 @@
   }
   .youtubeIcon {
     margin-left: 10px;
+    cursor: pointer;
   }
   .rightSection {
   }
