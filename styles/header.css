@@ -19,6 +19,7 @@
 
 #hamburger {
   min-width: 50px;
+  max-width: 70px;
   width: 13vw;
   cursor:pointer;
 }
@@ -27,10 +28,12 @@
   cursor: pointer;
   width: 50px;
 }
+
 .youtubeIcon {
   cursor: pointer;
-  width: 40vw;
-  min-width: 120px;
+  /* width: 40vw; */
+  min-width: 300px;
+  max-width: 300px;
 }
 
 .middleSection {
@@ -129,7 +132,6 @@
 
   .youtube-header-container {
     display: flex;
-    height:11vw ;
     justify-content: space-between;
   }
 
@@ -141,8 +143,8 @@
     }
 
   .navIcon{
-    width: 10vw;
-    border-radius: 5vw;
+    width: 4rem;
+    border-radius: 50%;
   }
   
 }
